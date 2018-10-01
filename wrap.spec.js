@@ -6,6 +6,6 @@ describe('wrap', () => {
     expect(wrap('', 10)).to.equal('');
   });
   it('Works on longer strings', () => {
-    expect(wrap('hello hello hello hello hello', 5)).to.equal('hello \nhello \nhello \nhello \nhello')
+    expect(wrap('hello hello hello hello hello', 6)).to.equal('hello \nhello \nhello \nhello \nhello')
   })
 });
